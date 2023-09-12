@@ -5,9 +5,6 @@ const Navbar = () => {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div className="container">
-				<NavLink className="navbar-brand" hrefLang="https://henok.us" to="/">
-					Henok
-				</NavLink>
 				<button
 					className="navbar-toggler collapsed"
 					type="button"
@@ -29,16 +26,7 @@ const Navbar = () => {
 								activeClassName="active"
 								to="/cruds/new"
 							>
-								Create
-							</NavLink>
-						</li>
-						<li className="nav-item">
-							<NavLink
-								className="nav-link"
-								activeClassName="active"
-								to="/cruds"
-							>
-								CRUDs
+								CRUD Create
 							</NavLink>
 						</li>
 						<li className="nav-item">
@@ -47,16 +35,7 @@ const Navbar = () => {
 								activeClassName="active"
 								to="/cruds/grid-view"
 							>
-								Grid View
-							</NavLink>
-						</li>
-						<li className="nav-item">
-							<NavLink
-								className="nav-link"
-								activeClassName="active"
-								to="/cruds/list-view"
-							>
-								List View
+								CRUD View
 							</NavLink>
 						</li>
 					</ul>
