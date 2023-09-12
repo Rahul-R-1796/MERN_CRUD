@@ -20,6 +20,11 @@ app.use((req, res, next) => {
 });
 
 // routes
+
+app.get("/", (req, res) => {
+    res.json({ message: "Welcome to the MERN CRUD App API"});
+});
+
 app.use("/api/cruds", crudRoutes);
 //app.use("/api/auth", authRoute);
 
