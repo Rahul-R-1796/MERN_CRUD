@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import EditContacts from './EditContacts';
 import './App.css';
+import Header from './Header'; 
+import Footer from './Footer'; 
 
 const ViewContacts = () => {
   const [contacts, setContacts] = useState([]);
@@ -50,6 +52,7 @@ const ViewContacts = () => {
 
   return (
     <div>
+      < Header/>
       <h1>View Contacts</h1>
       <ul>
         {contacts.map((contact) => (
@@ -74,7 +77,7 @@ const ViewContacts = () => {
             />
           </div>
         </div>
-      )}
+      )}<Footer/>
     </div>
   );
 };
