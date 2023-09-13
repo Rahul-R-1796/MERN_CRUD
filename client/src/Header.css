@@ -1,0 +1,30 @@
+/* Header Styles */
+header {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 10px 0; /* Add some padding for spacing */
+    text-align: center; /* Center align text */
+  }
+  
+  header a {
+    color: #fff; /* Link text color */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 10px; /* Add spacing between links */
+    font-weight: bold; /* Bold font for links */
+  }
+  
+  /* Footer Styles */
+ /* Footer Styles */
+footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color - white */
+    padding: 10px 0; /* Add some padding for spacing */
+    text-align: center; /* Center align text */
+  }
+  
+  footer a {
+    color: #00aaff; /* Link text color - change to your desired color */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 10px; /* Add spacing between links */
+  }
+  
