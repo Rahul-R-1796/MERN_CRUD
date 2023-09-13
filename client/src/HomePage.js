@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import './App.css';
+import Header from './Header'; 
+import Footer from './Footer'; 
 
 
 const HomePage = () => {
@@ -31,6 +33,7 @@ const HomePage = () => {
 
   return (
     <div>
+      <Header />
       <h1>Contact App</h1>
       <form onSubmit={handleSubmit}>
         <input
@@ -70,6 +73,7 @@ const HomePage = () => {
       <button className="view-contacts-button" onClick={() => navigate('/view-contacts')}>
         View Contacts
       </button>
+      <Footer /> 
     </div>
   );
 };
