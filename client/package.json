@@ -1,13 +1,7 @@
 {
 	"name": "client MERN CRUD",
-	"author": "Henok R. Bedassa",
-	"web": "henok.us",
-	"email": "jackbalageru@yahoo.com",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": ".",
-	"main": "index.js",
-	"proxy": "https://mern-crud-node-api.vercel.app",
 	"dependencies": {
 		"@nkalpak/react-ios-pwa-prompt": "^1.8.7",
 		"@testing-library/jest-dom": "^5.16.2",
@@ -18,6 +12,7 @@
 		"bootstrap-icons": "^1.8.1",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
+		"react-router": "^6.15.0",
 		"react-ios-pwa-prompt": "^1.8.4",
 		"react-router-dom": "^6.2.2",
 		"react-scripts": "5.0.0",
