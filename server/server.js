@@ -31,6 +31,10 @@ app.get('/api/contacts', async (req, res) => {
   }
 });
 
+app.get('/', (req, res) => {
+  res.send('Welcome to my Node.js application!');
+});
+
 app.post('/api/contacts', async (req, res) => {
   try {
     const contact = new Contact(req.body);
